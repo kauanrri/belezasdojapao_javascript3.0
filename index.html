@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BelezasNaturais.com</title>
+    <link rel="stylesheet" href="/assets/css/belezas.css">
+</head>
+<table>
+    <img class="img" height="65px" src="https://png.pngtree.com/png-clipart/20230319/original/pngtree-tree-logo-in-circle-shaped-png-image_8996797.png" alt="">
+    <h1 class="classe">BelezasDoJapão</h1>
+</table>
+<body>
+<style>
+    
+.carrossel {position: relative;max-width: 600px;margin: auto;
+overflow: hidden;}
+    
+.slides {display: flex;transition: transform 0.5s ease;}
+    
+.slide {min-width: 100%;box-sizing: border-box;}
+    
+.img1 {display: block; display: flex;}
+    
+.input1 {display: none;}
+    
+#slide1:checked ~ .slides {transform: translateX(0);}
+    
+#slide2:checked ~ .slides {transform: translateX(-100%);}
+    
+#slide3:checked ~ .slides {transform: translateX(-200%);}
+    
+.botao {cursor: pointer;margin: 0 5px;
+background-color: rgba(255, 255, 255, 0.5);
+border: 1px solid #ccc;border-radius: 5px;}
+
+
+</style>
+    <nav>
+
+        <ul type="none" >
+           
+            <li><a href="index.html">Belezas</a></li>
+            <li><a href="encantosNaturais.html">Encantos</a></li>
+            <li><a href="informaçõesAdicion.html">Informações</a></li>
+            <li><a href="https://pt.wikipedia.org/wiki/Hist%C3%B3ria_do_Jap%C3%A3o">História</a></li>
+            <li>
+                <section>
+                    <div>
+                        <label for="pesquisa">pesquisa: </label>
+                        <input type="text" pesquisa="pesquisa">
+                    </div>
+                </section>
+            </li>
+        </ul>
+
+    </nav>
+    
+    <main>
+        <h2>PAISAGENS DO JAPÃO</h2>
+
+        <div class="carrossel">
+            <input type="radio" name="slides" id="slide1" checked>
+            <input type="radio" name="slides" id="slide2">
+            <input type="radio" name="slides" id="slide3">
+    
+            <div class="slides">
+                <div class="slide">
+                    <img class="img1" height="300px" src="https://th.bing.com/th/id/R.deeb439d85d2f94a1628f63b4278c6f2?rik=MeoEFsHVNs6UcQ&pid=ImgRaw&r=0" alt="natureza">
+                </div> 
+                <div class="modal" id="imageModal">
+                <button class="close" id="closeModal">&times;</button>
+                <img id="modalImage" src="" alt="Imagem Ampliada">
+              </div>
+                <div class="slide">
+                    <img class="img1" height="300px" src="https://th.bing.com/th/id/OIP.Ceow5hqflRJ4pYPr4Xx4-gHaE8?rs=1&pid=ImgDetMain" alt="Imagem 2">
+                </div>
+                <div class="slide">
+                    <img class="img1" height="300px" src="https://th.bing.com/th/id/R.ac7c33654b65048b51a3ab993d38a1b9?rik=PrfMrIyECkUZ7A&riu=http%3a%2f%2fnextews.com%2fimages%2f89%2f4a%2f894aa4086fd90e98.jpg&ehk=ySFVrCxQNu%2b0zp6m3w%2bSC4WChLRQ7I2y9LSvl6DZdf8%3d&risl=&pid=ImgRaw&r=0" alt="Imagem 3">
+                </div>
+            </div>
+    
+           
+
+            <div>
+                <label class="input1" for="slide1" class="botao">1</label>
+                <label class="input1" for="slide2" class="botao">2</label>
+                <label class="input1" for="slide3" class="botao">3</label>
+            </div>
+        </div>
+        
+        <p>O Japão é um país repleto de belezas naturais que encantam a todos que o visitam. Suas paisagens variam de montanhas majestosas a costas deslumbrantes, cada uma oferecendo uma experiência única.
+    
+            Um dos símbolos mais icônicos é o Monte Fuji, com seu cume coberto de neve, que se ergue imponente em meio a um cenário de lagos e florestas. Durante a primavera, as cerejeiras florescem ao seu redor, criando um espetáculo de cores que atrai milhares de visitantes. As festividades do Hanami, que celebram a beleza das flores de cerejeira, são uma oportunidade perfeita para apreciar a natureza em sua forma mais pura.
+            
+            As ilhas do Japão também são conhecidas por suas praias de areia branca e águas cristalinas, como as da Ilha de Okinawa, que oferecem um paraíso tropical. O contraste entre a cultura vibrante e a natureza serena faz dessa região um destino imperdível.
+            
+            Nas regiões montanhosas, como os Alpes Japoneses, as trilhas e as paisagens são perfeitas para os amantes do trekking e do esqui. Durante o outono, as folhas das árvores se transformam em um espetáculo de tons avermelhados e dourados, atraindo os admiradores da paisagem.
+            
+            Os parques nacionais, como o Parque Nacional de Nikko, são refúgios de biodiversidade, onde cachoeiras, lagos e florestas se encontram, proporcionando momentos de paz e contemplação. A fauna e flora únicas do Japão, incluindo as famosas macacas de Nagano, são um convite à exploração.
+            
+            Em suma, as belezas naturais do Japão são um testemunho da harmonia entre o homem e a natureza. Cada estação traz um novo encanto, tornando o país um lugar onde a natureza se revela em toda sua grandiosidade e serenidade.
+        </p>
+
+        <div>
+            <img height="200" src="https://image.freepik.com/vrije-vector/de-nationale-vlag-van-japan_47243-984.jpg">
+        </div>
+
+        <h2>AS 10 MARAVILHAS JAPONESAS</h2>
+        <h4>Bom o japão é conhecido por incontáveis paisagens, aqui vai uma lista de 10 das maravilhas desse país</h4>
+<p class="p1">1.Monte Fuji: O símbolo mais famoso do Japão, com sua forma majestosa e cobertura de neve. É um local popular para caminhadas e fotografia.</p>
+<p class="p1">2.Cerezos em flor (Sakura): Durante a primavera, as flores de cerejeira embelezam parques e cidades, atraindo visitantes para a observação das flores.</p>
+<p class="p1">3.Parque Nacional de Nikko: Conhecido por suas montanhas, cachoeiras e templos deslumbrantes, é um local perfeito para quem ama natureza e cultura.</p>
+<p class="p1">4.Ilha de Okinawa: Com suas praias de areia branca e águas cristalinas, Okinawa é famosa por sua beleza tropical e rica vida marinha.</p>
+<span id="hiddenText">
+<p class="p1">5.Cascata de Kegon: Localizada em Nikko, esta cachoeira tem 97 metros de altura e é especialmente impressionante no outono, quando as folhas mudam de cor.</span></p>
+<p class="p1">6.Ilhas de Matsushima: Um arquipélago famoso por suas formações rochosas e beleza cênica, muitas vezes descrito como um dos três pontos mais belos do Japão.</p>
+<p class="p1">7.Arquipélago de Ogasawara: Conhecido como "Ilhas Galápagos do Japão", é um local remoto com rica biodiversidade e paisagens deslumbrantes.</p>
+<p class="p1">8.Região de Hakone: Famosa por suas fontes termais e vistas do Monte Fuji, é um ótimo lugar para relaxar e apreciar a natureza.</p>
+<p class="p1">9.Canyon de Takachiho: Com suas falésias de basalto e águas cristalinas, este canyon é um lugar mágico, repleto de mitologia japonesa.</p>
+<p class="p1">10.Praia de Shirahama: Conhecida por suas areias brancas e águas azuis, é um destino popular para relaxar e desfrutar do sol.</p>
+ 
+</main>
+</span>  <button id="toggleButton">Mostrar mais</button> 
+    <script src="/assets/js.js"></script>
+</body>
+</html>
